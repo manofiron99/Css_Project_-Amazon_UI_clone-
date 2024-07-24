@@ -94,41 +94,100 @@
 
 /* ---------------- Account div in the nav bar ---------------- */
 
-.nav_Account{
+.nav_Account {
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.Acc_first{
+.Acc_first {
     font-size: .85rem;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.Acc_second{
+.Acc_second {
     font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* ---------------- Orders div in the nav bar ---------------- */
 
-.nav_ordert{
+.nav_ordert {
     display: flex;
     flex-direction: column;
 }
 
-.Acc_first{
+.Acc_first {
     font-size: .80rem;
 }
 
-.Acc_second{
+.Acc_second {
     font-weight: 700;
 }
 
 /* ---------------- Cart div in the nav bar ---------------- */
 
-.nav_cart{
+.nav_cart {
     display: flex;
     align-items: baseline;
 }
 
-.Cart{
+.Cart {
     font-size: 30px;
 }
+
+/* ---------------- Panel section ---------------- */
+
+.panel_main{
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.panel_all{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.bold{
+    font-weight: bold;
+    padding-left: 3px;
+}
+
+.panel_ops{
+    display: flex;
+    width: 80%;
+}
+
+.panel{
+    margin: 10px;
+}
+
+/* ---------------- Hero section ---------------- */
+.Hero_section{
+    background-image: url("photos/61lwJy4B8PL._SX3000_.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.hero_msg{
+    height: 35px;
+    background-color: white;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* ---------------- Shop section ---------------- */
