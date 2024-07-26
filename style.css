@@ -209,6 +209,7 @@
     width: 23%;
     background-color: pink;
     background-color: white;
+    margin-top: 10px;
 }
 
 .box_img1{
@@ -261,4 +262,79 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+/* ---------------- Shop section ---------------- */
+.back{
+    height: 50px;
+    background-color: #37475a;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.back_link{
+    text-decoration: none;
+    color: white;
+}
+
+/* ---------------- Footer section ---------------- */
+.foot_panel1{
+    height: 350px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.big{
+    font-weight: bold;
+    font-size: x-large;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+.foot_panel2{
+    border-top: .5px solid white;
+    height: 120px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot_logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("photos/Amazon_logo.png");
+    background-size: cover;
+}
+
+.foot_language{
+    height: 25px;
+    color: white;
+    width: 100px;
+    border: 2px solid white;
+    display: flex;
+    padding: 10px;
+}
+.foot_para{
+    margin-left: 4px;
+}
+
+.foot_panel3{
+    background-color: #0f1111;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    color: white;
+    text-decoration: none;
 }
